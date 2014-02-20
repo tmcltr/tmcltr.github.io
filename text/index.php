@@ -4,6 +4,7 @@
 # through the Markdown filter. You can adapt this sample code in any way
 # you like.
 
+/*
 # Install PSR-0-compatible class autoloader
 spl_autoload_register(function($class){
 	require preg_replace('{\\\\|_(?!.*\\\\)}', DIRECTORY_SEPARATOR, ltrim($class, '\\')).'.php';
@@ -11,6 +12,9 @@ spl_autoload_register(function($class){
 
 # Get Markdown class
 use \Michelf\Markdown;
+*/
+
+require_once 'Michelf/Markdown.inc.php';
 
 $notename = basename("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
 
