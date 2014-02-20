@@ -19,7 +19,11 @@ require_once 'Michelf/Markdown.inc.php';
 $notename = basename("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
 
 # Read file and pass content through the Markdown parser
-$text = file_get_contents('https://dl.dropboxusercontent.com/u/142740/text/'.$notename.'.text');
+# $text = file_get_contents('https://dl.dropboxusercontent.com/u/142740/text/'.$notename.'.text');
+$text = file_get_contents('https://dl.dropboxusercontent.com/u/142740/text/Oahu.text');
+
+
+
 $html = Markdown::defaultTransform($text);
 
 ?>
