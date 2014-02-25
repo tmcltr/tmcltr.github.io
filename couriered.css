@@ -110,6 +110,7 @@ pre
 	padding: 1em;
 	border: 1px solid #ccc;
 	display: inline-block;
+	white-space: pre-line;
 }
 
 code
