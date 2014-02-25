@@ -20,12 +20,11 @@ body
 	color: #222020;
 	
 	
-	font-family: "Courier Prime", monospace;
+	font-family: monospace;
 	font-size: 14px;
 	line-height: 18px;
 	
-	min-width: 320px;
-	max-width: 700px;
+	max-width: 900px;
 	
 	margin: 36px auto;
 	padding: 0 36px;
@@ -37,7 +36,7 @@ h1, h2, h3, h4, h5, h6
 	font-size: inherit;
 	font-weight: normal;
 	margin: 24px 0 0 0;
-	font-family: "CourierPrime-Bold";	
+	font-family: monospace;	
 	
 }
 
@@ -45,7 +44,7 @@ h1
 {
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "CourierPrime-Bold";	
+	font-family: monospace;	
 }
 
 h1+ul {
@@ -88,7 +87,8 @@ p, li
 
 blockquote
 {
-	font-family: "CourierPrime-Italic";
+	font-family: monospace;
+	font-style: italic;
 	margin: 36px 54px;
 }
 
@@ -113,7 +113,7 @@ pre
 
 code
 {
-	font-family: "CourierPrime";
+	font-family: monospace;
 
 }
 
