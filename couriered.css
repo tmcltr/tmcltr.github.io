@@ -105,10 +105,11 @@ header li
 
 pre
 {
-	margin: 1em 1em;
+	margin: 1em;
 	line-height: 1em;
 	padding: 1em;
-	border-right: 1px solid #ccc;
+	border: 1px solid #ccc;
+	display: inline-block;
 }
 
 code
