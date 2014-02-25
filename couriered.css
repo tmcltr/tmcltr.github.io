@@ -89,7 +89,7 @@ blockquote
 {
 	font-family: monospace;
 	font-style: italic;
-	margin: 2em;
+	margin: 1em;
 }
 
 header ul
@@ -105,10 +105,10 @@ header li
 
 pre
 {
-	margin: 1em 2em;
+	margin: 1em 1em;
 	line-height: 1em;
 	padding: 1em;
-	border: 1px solid #ccc;
+	border-right: 1px solid #ccc;
 }
 
 code
